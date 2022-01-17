@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>俄羅斯方塊</title>
+      <style>
+         h1
+         {
+            color:red;
+            font-size: 500%;
+         }
+         h2
+         {
+            font-size: 350%;
+         }
+         img
+         {
+            width: 10%;
+         }
+         .textDiv 
+         {
+            font-size: 200%;
+		      margin: auto;
+		      border-left: 1px dashed #000;
+		      border-right: 1px dashed #000;
+	      }
+         .iframePosition			
+         { 
+            position: absolute;
+				left: 50%;
+				margin-left: -608px;
+				z-index: 1; 
+         }
+         body{
+            background-image: url(bs.jpeg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+         }
+      </style>
+   </head>
+
+   <body style="background-color: whitesmoke;">
+      <h1 style="text-align: center" ><strong>TETRIS GAMES</strong></h1>
+      <div style="text-align: center" class = "textDiv">
+         <h3>說明文件下載<br><a href = "提案.pptx"><img src="download.png"></imgsrc></a></h2>
+      </div>
+      <h2 style="text-align: center">One-Player-Tetris<br><a href = "game.html"><img src="play.png" ></a></h2>
+      <h2 style="text-align: center">Two-Player-Tetris<br><a href = "2Ptetris.html"><img src="play.png" ></a></h2>
+      <div class = "iframePosition">
+         <iframe class = "contentIframe" id = "contentIframe" src="DATA.html" width = "1200px" height = "600px" scrolling = "auto" name = "contentIframe" >
+            <p>Your browser does not support iframes.</p>
+         </iframe>
+      </div>
+   </body>
+</html>
